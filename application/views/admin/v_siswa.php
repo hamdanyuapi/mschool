@@ -468,7 +468,7 @@
                     </div>
                     <form class="form-horizontal" action="<?php echo base_url().'admin/siswa/simpan_siswa'?>" method="post" enctype="multipart/form-data">
                     <div class="modal-body">
-
+ 
                                     <div class="form-group">
                                         <label for="inputUserName" class="col-sm-4 control-label">NIS</label>
                                         <div class="col-sm-7">

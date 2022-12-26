@@ -122,6 +122,7 @@
                             <h1>Bepikir Kreaftif &amp; Inovatif</h1>
                             <h4>Bagi kami kreativitas merupakan gerbang masa depan.<br> kreativitas akan mendorong inovasi. <br> Itulah yang kami lakukan.</h4>
                             <div class="slider-btn">
+                                <a href="<?php echo site_url('ppdb');?>" class="btn btn-success" >PPDB</a>
                                 <a href="<?php echo site_url('artikel');?>" class="btn btn-default">Learn more</a>
                             </div>
                         </div>
