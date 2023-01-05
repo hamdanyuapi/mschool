@@ -1,0 +1,9 @@
+panduan
+
+1. instal di github 
+2. setelah di instal folder projek pindahkan pada htdoct
+3. ke localhost/phpmyadmin buat database mschool lalu impor sql yg ada di projek
+3. buka projek di code editor
+4. aplication -> config 
+atur di config bas_url masukan link http://localhost/mschool/
+5 akses di web browser http://localhost/mschool/
