@@ -93,6 +93,9 @@
                               <li class="nav-item">
                                 <a class="nav-link" href="<?php echo site_url('contact');?>">Pendaftaran</a>
                               </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="<?php echo site_url('ppdb');?>">Pendaftaran</a>
+                              </li>
                         </ul>
                   </div>
                 </nav>

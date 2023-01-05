@@ -93,6 +93,9 @@
                               <li class="nav-item">
                                 <a class="nav-link" href="<?php echo site_url('contact');?>">Contact</a>
                               </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="<?php echo site_url('ppdb');?>">Pendaftaran</a>
+                              </li>
                         </ul>
                   </div>
                 </nav>
@@ -107,10 +110,11 @@
 <body>
 <div class="container mt-5 mb-5">
     <form method="post" action="<?php echo base_url().'ppdb/simpan_ppdb'?>">
-        <div class="card p-5">
-            <div>
-                <h1 class="text-center">Form PPDB</h1>
-            </div>
+
+        <div class="card-header bg-primary text-white text-center">
+            <h3>FORM PPDB</h3>
+        </div>
+        <div class="mt-5">
         <div class="row">
             <div class="col-lg-6">
                 <div class="mb-3">
@@ -201,7 +205,7 @@
             </div>
         </div>
 
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary">Simpan</button>
             
         </div>
             
