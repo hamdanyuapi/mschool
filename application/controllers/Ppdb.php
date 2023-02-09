@@ -6,7 +6,7 @@ class Ppdb extends CI_Controller{
 	}
 	function index(){
 		$this->load->view('depan/v_ppdb');
-	}
+	} 
 
 	function simpan_ppdb(){
 
@@ -26,7 +26,10 @@ class Ppdb extends CI_Controller{
 		$no_hp=strip_tags($this->input->post('no_hp'));
 
 		$this->m_ppdb->simpan_ppdb($nama_lengkap,$jenis_kelamin,$tempat_lahir,$tgl_lahir,$alamat,$desa,$kecamatan,$kabupaten,$provinsi,$nama_ayah,$nama_ibu,$pekerjaan_ayah,$pekerjaan_ibu,$no_hp);
-		echo $this->session->set_flashdata('msg','success');
+		$this->session->set_flashdata('message','<div class="alert alert-success alert-dismissible" role="alert">
+			<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			<strong><center>Data Berhasil Ditambahkan</center></strong> 
+		  </div>');
 		redirect('home');
 		
 		// $this->load->view('v_ppdb');

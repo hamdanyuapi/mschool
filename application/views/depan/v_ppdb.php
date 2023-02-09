@@ -109,12 +109,17 @@
 
 <body>
 <div class="container mt-5 mb-5">
+
+
     <form method="post" action="<?php echo base_url().'ppdb/simpan_ppdb'?>">
 
         <div class="card-header bg-primary text-white text-center">
             <h3>FORM PPDB</h3>
         </div>
+        
+        
         <div class="mt-5">
+        <?php echo $this->session->flashdata('message') ?>
         <div class="row">
             <div class="col-lg-6">
                 <div class="mb-3">

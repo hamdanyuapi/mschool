@@ -122,6 +122,15 @@
           </a>
         </li>
 
+        <li>
+          <a href="<?php echo base_url().'admin/ppdb'?>">
+            <i class="fa fa-graduation-cap"></i> <span>PPDB</span>
+            <span class="pull-right-container">
+              <small class="label pull-right"></small>
+            </span>
+          </a>
+        </li>
+
         <li class="treeview">
           <a href="#">
             <i class="fa fa-user"></i>

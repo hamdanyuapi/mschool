@@ -128,11 +128,16 @@
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
-          <ul class="treeview-menu">
+          <!-- <ul class="treeview-menu">
             <li><a href="<?php echo base_url().'admin/siswa'?>"><i class="fa fa-users"></i> Data Siswa</a></li>
             <li><a href="#"><i class="fa fa-star-o"></i> Prestasi Siswa</a></li>
 
           </ul>
+          <ul class="treeview-menu">
+            <li><a href="<?php echo base_url().'admin/ppdb'?>"><i class="fa fa-users"></i> Data Siswa</a></li>
+            <li><a href="#"><i class="fa fa-star-o"></i> Pendaftaran</a></li>
+
+          </ul> -->
         </li>
 
         <li>
